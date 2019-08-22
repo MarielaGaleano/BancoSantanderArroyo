@@ -6,6 +6,8 @@ public class Cuenta {
     private Double saldo;
     private Cliente titular;
 
+    //Constructor que me sirve para CajaDeAhorro
+
     public Cuenta(Cliente titular) {
         this.titular = titular;
         saldo = 0.0;
